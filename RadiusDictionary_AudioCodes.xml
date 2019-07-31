@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TipsContents xmlns="http://www.avendasys.com/tipsapiDefs/1.0">
+  <TipsHeader exportTime="Wed Jul 31 07:34:41 CDT 2019" version="6.7"/>
+  <Dictionaries>
+    <Vendor vendorEnabled="true" prefix="AudioCodes" name="Radius:AudioCodes" id="5003">
+      <RadiusAttributes>
+        <Attribute profile="in out" type="Unsigned32" name="ACL-Auth-Level" id="35">
+          <ValidValues>
+            <ValidValue enumOrdinal="50" value="ACL-Auth-UserLevel"/>
+            <ValidValue enumOrdinal="100" value="ACL-Auth-AdminLevel"/>
+            <ValidValue enumOrdinal="200" value="ACL-Auth-SecurityAdminLevel"/>
+          </ValidValues>
+        </Attribute>
+      </RadiusAttributes>
+    </Vendor>
+  </Dictionaries>
+</TipsContents>
